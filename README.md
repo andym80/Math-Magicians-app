@@ -1,4 +1,4 @@
-# Getting Started with Math-MAgicians-app
+# Getting Started with Math-Magicians-app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
