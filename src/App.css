@@ -70,6 +70,7 @@ input[type="text"] {
   color: var(--tertiary);
   cursor: pointer;
   transition: all 0.2s;
+  text-align: right;
 }
 
 #clr {
