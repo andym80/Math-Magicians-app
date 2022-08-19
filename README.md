@@ -4,6 +4,11 @@
 
 >Math Magicians is a web application that allows users to create and share math equations.
 
+# Demo
+
+[![Video](https://www.loom.com/share/e22d14cfa12f42afac2d1f72b95d84e9)](https://www.loom.com/share/e22d14cfa12f42afac2d1f72b95d84e9)
+
+
 # Getting Started with Math Magicians app
 
 Get a copy from this repository on GitHub at CODE (green icon) and paste into your code editor .
