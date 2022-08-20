@@ -15,7 +15,7 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
-  background: var(--tertiary);
+  height: auto;
 }
 
 button {
@@ -28,6 +28,12 @@ button {
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
+}
+
+html {
+  background-image: url('./images/giphy.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
