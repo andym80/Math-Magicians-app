@@ -25,7 +25,7 @@ button {
   padding: 0.3125rem;
   background: var(--quaternary);
   color: var(--primary);
-  font-size: 1rem;
+  font-size: 2.25rem;
   font-weight: bold;
   cursor: pointer;
 }
@@ -53,6 +53,75 @@ html {
   overflow: hidden;
 }
 
+h1 {
+  color: rgb(14, 2, 2);
+  font-family: 'Roboto', sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0.625rem 0;
+  width: 50%;
+}
+
+.welcome-heading {
+  color: rgb(5, 5, 5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.625rem 0;
+  width: 50%;
+}
+
+.navbar-cointainer {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  padding: 0.625rem 1.25rem;
+  background: var(--tertiary);
+  flex-direction: row;
+}
+
+.navbar-item {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  padding: 0.625rem;
+  color: var(--tertiary);
+  font-size: 1.25rem;
+  list-style: none;
+  font-weight: bold;
+  margin: 0.625rem 0;
+}
+
+.options-container {
+  display: flex;
+  float: right;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-end;
+  height: 100%;
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+  border: 0.3125rem solid var(--primary);
+}
+
+a:hover {
+  color: var(--secondary);
+  border: 0.3125rem solid var(--secondary);
+}
+
+p {
+  margin: 4em 2em 0 2em;
+  font-size: medium;
+  line-height: 45px;
+}
+
 .keypad {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -65,7 +134,7 @@ html {
   overflow: hidden;
 }
 
-input[type="text"] {
+.display {
   width: 99.5%;
   height: 2.5em;
   border: 0;
@@ -77,6 +146,8 @@ input[type="text"] {
   cursor: pointer;
   transition: all 0.2s;
   text-align: right;
+  align-items: center;
+  padding: 0.625rem;
 }
 
 #clr {
