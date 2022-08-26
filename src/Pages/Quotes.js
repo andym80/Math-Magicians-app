@@ -10,7 +10,7 @@ const Quotes = () => (
         .&quot;
         {' '}
       </p>
-      <span>by Unkwnown</span>
+      <span className="p-author">by Unkwnown</span>
     </p>
   </section>
 );
