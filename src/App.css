@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
 :root {
   --primary: #0070f3;
   --secondary: #ff4081;
@@ -25,7 +27,7 @@ button {
   padding: 0.3125rem;
   background: var(--quaternary);
   color: var(--primary);
-  font-size: 1rem;
+  font-size: 2.25rem;
   font-weight: bold;
   cursor: pointer;
 }
@@ -37,20 +39,87 @@ html {
 }
 
 .container {
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 70%;
   position: absolute;
   transform: translate(-50%, -50%);
   margin: 0 auto;
   width: 100%;
-  max-width: 31.25rem;
-  height: 100%;
+  max-width: 23.25rem;
+  height: 83%;
   text-align: center;
   border: 0.5rem solid black;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgb(0 0 0 / 10%);
   background: black;
   border-radius: 0.25rem;
   overflow: hidden;
+}
+
+h1 {
+  color: rgb(14, 2, 2);
+  font-family: 'Roboto', sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0.625rem 0.5em;
+  width: 50%;
+}
+
+.welcome-heading {
+  color: rgb(5, 5, 5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.625rem 1.9em;
+  width: 50%;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: var(--tertiary);
+}
+
+.navbar-item {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.625rem;
+  color: var(--tertiary);
+  font-size: 2.25rem;
+  list-style: none;
+  font-weight: bold;
+  background: #f5f5f5;
+  border-radius: 16px;
+}
+
+.options-container {
+  display: flex;
+  column-gap: 3em;
+  align-self: flex-start;
+  height: 100%;
+  margin: 15px;
+  width: fit-content;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondary);
+  border: 0.16em solid var(--secondary);
+}
+
+p {
+  margin: 2em;
+  font-size: x-large;
+  line-height: 75px;
+}
+
+.p-author {
+  margin-left: 60rem;
 }
 
 .keypad {
@@ -65,7 +134,7 @@ html {
   overflow: hidden;
 }
 
-input[type="text"] {
+.display {
   width: 99.5%;
   height: 2.5em;
   border: 0;
@@ -77,6 +146,8 @@ input[type="text"] {
   cursor: pointer;
   transition: all 0.2s;
   text-align: right;
+  align-items: center;
+  padding: 0.625rem;
 }
 
 #clr {

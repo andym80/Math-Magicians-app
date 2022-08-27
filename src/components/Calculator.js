@@ -13,7 +13,9 @@ const Calculator = () => {
       <div>
         <div className="container">
           <form>
-            <input type="text" value={obj.next || obj.total || 0} />
+            <div className="display">
+              {obj.next || obj.total || 0}
+            </div>
           </form>
           <div className="keypad">
             <button type="button" className="button" onClick={result} id="clr">Clear</button>
